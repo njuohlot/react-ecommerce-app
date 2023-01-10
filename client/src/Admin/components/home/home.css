@@ -1,0 +1,17 @@
+.home{
+    display: flex;
+    width:100vw;
+    
+}
+
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}
+@media only screen and (max-width: 768px){
+   .homeWidgets{
+    flex-direction: column !important;
+    flex-wrap: wrap;
+   }
+  
+  }
